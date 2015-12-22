@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<..\index.html> a prov:Entity;
+	 dc:title "IFC4";
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Walter Terkaj  (walter.terkaj@itia.cnr.it)".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Pieter Pauwels (pipauwel.pauwels@ugent.be)".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Aleksandra Sojic (aleksandra.sojic@itia.cnr.it)".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Maria Poveda Villalon (mpoveda@fi.upm.es)".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Jakob Beetz (j.beetz@tue.nl)".];
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
